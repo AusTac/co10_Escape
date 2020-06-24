@@ -95,9 +95,9 @@ switch (_enemyFrequency) do {
 		,"gm_ge_army_Leopard1a3"
 		,"gm_ge_army_Leopard1a3a1"
 		,"gm_ge_army_Leopard1a5"
-		,"gm_ge_army_luchsa1",
-		,"gm_ge_army_luchsa2",
-		,"gm_ge_army_bpz2a0",
+		,"gm_ge_army_luchsa1"
+		,"gm_ge_army_luchsa2"
+		,"gm_ge_army_bpz2a0"
 		,"gm_ge_army_iltis_mg3"];
         a3e_arr_Escape_MilitaryTraffic_EnemyVehicleClasses_IND = [
 		"gm_dk_army_m113a1dk_apc"
@@ -148,9 +148,9 @@ switch (_enemyFrequency) do {
 		,"gm_ge_army_Leopard1a3"
 		,"gm_ge_army_Leopard1a3a1"
 		,"gm_ge_army_Leopard1a5"
-		,"gm_ge_army_luchsa1",
-		,"gm_ge_army_luchsa2",
-		,"gm_ge_army_bpz2a0",
+		,"gm_ge_army_luchsa1"
+		,"gm_ge_army_luchsa2"
+		,"gm_ge_army_bpz2a0"
 		,"gm_ge_army_iltis_mg3"];
         a3e_arr_Escape_MilitaryTraffic_EnemyVehicleClasses_IND = [
 		"gm_dk_army_m113a1dk_apc"
@@ -201,9 +201,9 @@ switch (_enemyFrequency) do {
 		,"gm_ge_army_Leopard1a3"
 		,"gm_ge_army_Leopard1a3a1"
 		,"gm_ge_army_Leopard1a5"
-		,"gm_ge_army_luchsa1",
-		,"gm_ge_army_luchsa2",
-		,"gm_ge_army_bpz2a0",
+		,"gm_ge_army_luchsa1"
+		,"gm_ge_army_luchsa2"
+		,"gm_ge_army_bpz2a0"
 		,"gm_ge_army_iltis_mg3"];
         a3e_arr_Escape_MilitaryTraffic_EnemyVehicleClasses_IND = [
 		"gm_dk_army_m113a1dk_apc"
@@ -273,7 +273,7 @@ a3e_arr_recon_InfantryTypes = [
 	"gm_ge_bgs_rifleman_g3a3_80_smp"
 	,"gm_ge_bgs_machinegunner_mg3_80_smp"
 	,"gm_ge_bgs_machinegunner_assistant_g3a3_mg3_80_smp"
-	,"gm_ge_bgs_squadleader_g3a3_p2a1_80_smp",
+	,"gm_ge_bgs_squadleader_g3a3_p2a1_80_smp"
 	,"gm_ge_army_sf_marksman_g3a3_80_wdl"
 	,"gm_ge_army_sf_rifleman_g3a4_80_wdl"
 	,"gm_ge_army_sf_rifleman_mp5a3_80_wdl"
@@ -305,8 +305,8 @@ a3e_arr_Escape_RoadBlock_MannedVehicleTypes = [
 	,"gm_ge_army_m113a1g_apc"
 	,"gm_ge_army_m113a1g_apc_milan"
 	,"gm_ge_army_milan_launcher_tripod"
-	,"gm_ge_army_bpz2a0",
-	,"gm_ge_army_mg3_aatripod",
+	,"gm_ge_army_bpz2a0"
+	,"gm_ge_army_mg3_aatripod"
 	,"gm_ge_army_iltis_mg3"];
 a3e_arr_Escape_RoadBlock_MannedVehicleTypes_Ind = [
 	"gm_dk_army_m113a1dk_apc"
@@ -340,7 +340,7 @@ a3e_arr_ComCenDefence_lightArmorClasses = [
 	"gm_ge_army_m113a1g_apc"
 	,"gm_ge_army_m113a1g_apc_milan"
 	,"gm_ge_army_fuchsa0_reconnaissance"
-	,"gm_ge_army_luchsa1",
+	,"gm_ge_army_luchsa1"
 	,"gm_ge_army_luchsa2"];
 // Random array. Heavy armored vehicles guarding the communication centers.
 a3e_arr_ComCenDefence_heavyArmorClasses = [
