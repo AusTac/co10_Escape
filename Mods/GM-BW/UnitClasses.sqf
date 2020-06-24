@@ -36,6 +36,7 @@ a3e_arr_PrisonBackpackWeapons pushback ["gm_pm_blk","gm_8rnd_9x18mm_b_pst_pm_blk
 a3e_arr_PrisonBackpackWeapons pushback ["gm_p1_blk","gm_8rnd_9x19mm_b_dm11_p1_blk"];
 a3e_arr_PrisonBackpackWeapons pushback ["gm_pm_blk","gm_8rnd_9x18mm_b_pst_pm_blk"];
 a3e_arr_PrisonBackpackWeapons pushback ["gm_mp2a1_blk", "gm_32rnd_9x19mm_b_dm51_mp2_blk"];
+a3e_arr_PrisonBackpackWeapons pushback ["gm_pm63_blk", "gm_25Rnd_9x18mm_B_pst_pm63_blk"];
 
 // Random array. Civilian vehicle classes for ambient traffic.
 a3e_arr_Escape_MilitaryTraffic_CivilianVehicleClasses = [
@@ -93,7 +94,11 @@ switch (_enemyFrequency) do {
 		,"gm_ge_army_Leopard1a1a2"
 		,"gm_ge_army_Leopard1a3"
 		,"gm_ge_army_Leopard1a3a1"
-		,"gm_ge_army_Leopard1a5"];
+		,"gm_ge_army_Leopard1a5"
+		,"gm_ge_army_luchsa1",
+		,"gm_ge_army_luchsa2",
+		,"gm_ge_army_bpz2a0",
+		,"gm_ge_army_iltis_mg3"];
         a3e_arr_Escape_MilitaryTraffic_EnemyVehicleClasses_IND = [
 		"gm_dk_army_m113a1dk_apc"
 		,"gm_dk_army_m113a1dk_command"
@@ -142,7 +147,11 @@ switch (_enemyFrequency) do {
 		,"gm_ge_army_Leopard1a1a2"
 		,"gm_ge_army_Leopard1a3"
 		,"gm_ge_army_Leopard1a3a1"
-		,"gm_ge_army_Leopard1a5"];
+		,"gm_ge_army_Leopard1a5"
+		,"gm_ge_army_luchsa1",
+		,"gm_ge_army_luchsa2",
+		,"gm_ge_army_bpz2a0",
+		,"gm_ge_army_iltis_mg3"];
         a3e_arr_Escape_MilitaryTraffic_EnemyVehicleClasses_IND = [
 		"gm_dk_army_m113a1dk_apc"
 		,"gm_dk_army_m113a1dk_command"
@@ -191,7 +200,11 @@ switch (_enemyFrequency) do {
 		,"gm_ge_army_Leopard1a1a2"
 		,"gm_ge_army_Leopard1a3"
 		,"gm_ge_army_Leopard1a3a1"
-		,"gm_ge_army_Leopard1a5"];
+		,"gm_ge_army_Leopard1a5"
+		,"gm_ge_army_luchsa1",
+		,"gm_ge_army_luchsa2",
+		,"gm_ge_army_bpz2a0",
+		,"gm_ge_army_iltis_mg3"];
         a3e_arr_Escape_MilitaryTraffic_EnemyVehicleClasses_IND = [
 		"gm_dk_army_m113a1dk_apc"
 		,"gm_dk_army_m113a1dk_command"
@@ -260,7 +273,13 @@ a3e_arr_recon_InfantryTypes = [
 	"gm_ge_bgs_rifleman_g3a3_80_smp"
 	,"gm_ge_bgs_machinegunner_mg3_80_smp"
 	,"gm_ge_bgs_machinegunner_assistant_g3a3_mg3_80_smp"
-	,"gm_ge_bgs_squadleader_g3a3_p2a1_80_smp"];
+	,"gm_ge_bgs_squadleader_g3a3_p2a1_80_smp",
+	,"gm_ge_army_sf_marksman_g3a3_80_wdl"
+	,"gm_ge_army_sf_rifleman_g3a4_80_wdl"
+	,"gm_ge_army_sf_rifleman_mp5a3_80_wdl"
+	,"gm_ge_army_sf_squadleader_mp5sd3_p2a1_80_wdl"
+	,"gm_ge_army_sf_antitank_mp5a2_pzf84_80_wdl"
+	,"gm_ge_army_sf_antitank_assistant_mp5a2_pzf84_80_wdl"];
 a3e_arr_recon_I_InfantryTypes = [
 	"gm_dk_army_squadleader_g3a3_p2a1_84_m84"
 	,"gm_dk_army_squadleader_g3a3_p2a1_84_m84"
@@ -285,7 +304,10 @@ a3e_arr_Escape_RoadBlock_MannedVehicleTypes = [
 	,"gm_ge_army_fuchsa0_reconnaissance"
 	,"gm_ge_army_m113a1g_apc"
 	,"gm_ge_army_m113a1g_apc_milan"
-	,"gm_ge_army_milan_launcher_tripod"];
+	,"gm_ge_army_milan_launcher_tripod"
+	,"gm_ge_army_bpz2a0",
+	,"gm_ge_army_mg3_aatripod",
+	,"gm_ge_army_iltis_mg3"];
 a3e_arr_Escape_RoadBlock_MannedVehicleTypes_Ind = [
 	"gm_dk_army_m113a1dk_apc"
 	,"gm_dk_army_m113a2dk"];
@@ -306,7 +328,9 @@ a3e_arr_Escape_ReinforcementTruck_vehicleClasses_Ind = [
 a3e_arr_Escape_MotorizedSearchGroup_vehicleClasses = [
 	"gm_ge_army_fuchsa0_reconnaissance"
 	,"gm_ge_army_m113a1g_apc_milan"
-	,"gm_ge_army_iltis_milan"];
+	,"gm_ge_army_iltis_milan"
+	,"gm_ge_army_luchsa1"
+	,"gm_ge_army_luchsa2"];
 
 // A communication center is guarded by vehicles depending on variable _enemyFrequency. 1 = a random light armor. 2 = a random heavy armor. 3 = a random 
 // light *and* a random heavy armor.
@@ -315,7 +339,9 @@ a3e_arr_Escape_MotorizedSearchGroup_vehicleClasses = [
 a3e_arr_ComCenDefence_lightArmorClasses = [
 	"gm_ge_army_m113a1g_apc"
 	,"gm_ge_army_m113a1g_apc_milan"
-	,"gm_ge_army_fuchsa0_reconnaissance"];
+	,"gm_ge_army_fuchsa0_reconnaissance"
+	,"gm_ge_army_luchsa1",
+	,"gm_ge_army_luchsa2"];
 // Random array. Heavy armored vehicles guarding the communication centers.
 a3e_arr_ComCenDefence_heavyArmorClasses = [
 	"gm_ge_army_gepard1a1"
@@ -328,7 +354,8 @@ a3e_arr_ComCenDefence_heavyArmorClasses = [
 a3e_arr_ComCenStaticWeapons = [
 	"B_HMG_01_high_F"
 	,"B_HMG_01_high_F"
-	,"gm_ge_army_milan_launcher_tripod"];
+	,"gm_ge_army_milan_launcher_tripod"
+	,"gm_ge_army_mg3_aatripod"];
 // A communication center have two parked and empty vehicles of the following possible types.
 a3e_arr_ComCenParkedVehicles = [
 	"gm_ge_army_k125"
@@ -365,7 +392,8 @@ a3e_arr_Escape_AmmoDepot_StaticWeaponClasses = [
 	,"B_GMG_01_high_F"
 	,"B_T_HMG_01_F"
 	,"gm_ge_army_milan_launcher_tripod"
-	,"B_T_Static_AA_F"];
+	,"B_T_Static_AA_F"
+	,"gm_ge_army_mg3_aatripod"];
 // An ammo depot have one parked and empty vehicle of the following possible types.
 a3e_arr_Escape_AmmoDepot_ParkedVehicleClasses = [
 	"gm_dk_army_typ1200_cargo"
@@ -386,7 +414,8 @@ a3e_arr_Escape_AmmoDepot_ParkedVehicleClasses = [
 	,"gm_ge_army_m113a1g_medic"
 	,"gm_ge_army_m113a1g_command"
 	,"gm_ge_army_m113a1g_apc"
-	,"gm_ge_army_bicycle_01_oli"];
+	,"gm_ge_army_bicycle_01_oli"
+	,"gm_ge_army_iltis_mg3"];
 
 //Random array. Types of helicopters to spawn
 a3e_arr_O_attack_heli = [
@@ -395,7 +424,7 @@ a3e_arr_O_attack_heli = [
 	//"O_Heli_Attack_02_black_F"
 	//,"O_T_VTOL_02_infantry_F"];
 a3e_arr_O_transport_heli = [
-	"B_Heli_Transport_01_F"];
+	"gm_ge_army_ch53g"];
 	//"CUP_B_UH1D_GER_KSK"];
 	//"O_Heli_Light_02_unarmed_F"];
 a3e_arr_O_pilots = [
@@ -424,6 +453,12 @@ a3e_arr_AmmoDepotBasicWeapons pushback ["gm_g3a3_oli", 100, 2, 4, ["gm_20rnd_762
 a3e_arr_AmmoDepotBasicWeapons pushback ["gm_mg3_blk", 50, 2, 4, ["gm_120rnd_762x51mm_b_t_dm21_mg3_grn"], 3];
 a3e_arr_AmmoDepotBasicWeapons pushback ["gm_g3a4_oli", 50, 2, 4, ["gm_20rnd_762x51mm_b_t_dm21a2_g3_blk"], 6];
 a3e_arr_AmmoDepotBasicWeapons pushback ["gm_g3a3_oli", 50, 2, 4, ["gm_20rnd_762x51mm_b_t_dm21a1_g3_blk", "gm_1rnd_67mm_heat_dm22a1_g3"], 6];
+
+a3e_arr_AmmoDepotBasicWeapons pushback ["gm_pm63_blk", 50, 2, 4, ["gm_25Rnd_9x18mm_B_pst_pm63_blk"], 6];
+a3e_arr_AmmoDepotBasicWeapons pushback ["gm_mp5a2_blk", 50, 2, 4, ["gm_30Rnd_9x19mm_B_DM51_mp5_blk"], 6];
+a3e_arr_AmmoDepotBasicWeapons pushback ["gm_mp5a3_blk", 50, 2, 4, ["gm_30Rnd_9x19mm_B_DM51_mp5a3_blk"], 6];
+a3e_arr_AmmoDepotBasicWeapons pushback ["gm_mp5sd2_blk", 50, 2, 4, ["gm_30Rnd_9x19mm_B_DM51_mp5a3_blk"], 6];
+a3e_arr_AmmoDepotBasicWeapons pushback ["gm_mp5sd3_blk", 50, 2, 4, ["gm_30Rnd_9x19mm_B_DM51_mp5a3_blk"], 6];
 // non-CSAT weapons
 a3e_arr_AmmoDepotBasicWeapons pushback ["gm_m16a1_blk", 50, 1, 3, ["gm_20Rnd_556x45mm_b_M855_stanag_gry"], 6];
 a3e_arr_AmmoDepotBasicWeapons pushback ["gm_m16a2_blk", 40, 1, 3, ["gm_30Rnd_556x45mm_b_M855_stanag_gry"], 6];
@@ -444,6 +479,8 @@ a3e_arr_AmmoDepotLaunchers = [];
 a3e_arr_AmmoDepotLaunchers pushback ["gm_pzf44_2_oli", 50, 3, 5, ["gm_1rnd_44x537mm_heat_dm32_pzf44_2"], 2];
 a3e_arr_AmmoDepotLaunchers pushback ["gm_pzf84_oli", 50, 1, 2, ["gm_1rnd_84x245mm_heat_t_dm12a1_carlgustaf"], 3];
 a3e_arr_AmmoDepotLaunchers pushback ["gm_pzf84_oli", 50, 1, 2, ["gm_1rnd_84x245mm_heat_t_dm22_carlgustaf", "gm_1rnd_84x245mm_illum_dm16_carlgustaf"], 2];
+a3e_arr_AmmoDepotSpecialWeapons pushback ["gm_fim43_oli", 5, 1, 2, ["gm_1Rnd_70mm_he_m585_fim43"], 5];
+a3e_arr_AmmoDepotSpecialWeapons pushback ["gm_9k32m_oli", 5, 1, 2, ["gm_1Rnd_72mm_he_9m32m"], 5];
 // non-CSAT weapons
 a3e_arr_AmmoDepotLaunchers pushback ["gm_rpg7_prp", 20, 1, 2, ["gm_1rnd_40mm_heat_pg7v_rpg7"], 3];
 //a3e_arr_AmmoDepotLaunchers pushback ["launch_I_Titan_F", 100, 1, 1, ["Titan_AA"], 3];
